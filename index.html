@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="contact.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <title>Contact Data</title>
+</head>
+<body>
+<section class="delivery">
+<form action="#" class="form_1">
+    <div class="title">Способ получения</div>
+    <input type="text" name="town" placeholder="Город" id="town">
+    <select name="post" id="post">
+            <option value="Russia">Почта России</option>
+            <option value="Belarus">Белпочта</option>
+            <option value="DPD">DPD</option>
+            <option value="SDEK">СДЭК</option>
+    </select>
+    <div class="address">
+        <input type="text" name="street" placeholder="Улица" id="street">
+        <input type="text" name="house" placeholder="Дом" id="house">
+        <input type="number" name="flat" placeholder="Квартира" id="flat">
+        <input type="number" name="index" placeholder="Индекс" id="index">
+    </div>
+    <input type="text" name="comment" placeholder="Добавить комментарий" id="comment">
+</form>
+</section>
+
+<section class="recipient">
+    <form action="#" class="form_2">
+    <div class="title">Данные получателя</div>
+
+    <div class="name">
+    <input type="text" name="last_name" placeholder="Фамилия" id="last_name">
+    <input type="text" name="first_name" placeholder="Имя" id="first_name">
+    <input type="text" name="father_name" placeholder="Отчество" id="father_name">
+    </div>
+
+    <input type="tel" name="tel" placeholder="Номер телефона" id="tel">
+    <div class="text">По этому номеру телефона мы с вяжемся с вами для подтверждения заказа</div>
+    <input type="email" name="email" placeholder="E-mail" id="email">
+    <div class="text">На эту почту вам придет письмо с составом заказа, а так же трэк-номер для его отслеживания</div>
+        <div class="checkbox">
+    <input type="checkbox" name="checkbox" id="check">
+    <label for="check" class="desc">Подписаться на рассылку новинок и акций</label>
+        </div>
+    </form>
+</section>
+
+<section class="payment">
+    <form action="#" class="form_3">
+        <div class="title">Способы оплаты</div>
+
+        <div class="pay>">
+        <label class="label">
+            <input type="radio" name="radio" class="radio">
+            <span class="fake"></span>
+            <span class="desc_label_1">Оплата при получении наличными или картой</span>
+        </label>
+
+        <label class="label">
+            <input type="radio" name="radio" class="radio">
+            <span class="fake"></span>
+            <span class="desc_label_2">Оплата банковской картой онлайн</span>
+        </label>
+        </div>
+
+    </form>
+</section>
+
+</body>
+</html>
