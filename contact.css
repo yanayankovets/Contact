@@ -63,12 +63,12 @@ input, select {
     flex-direction: column;
 }
 
-#town {
+.town {
     width: 520px;
     margin-bottom: 24px;
 }
 
-#post {
+.post {
     width: 520px;
     margin-bottom: 24px;
     color: #BDBDBD;
@@ -84,7 +84,7 @@ input, select {
     line-height: 17px;
 }
 
-#post select {
+.post select {
     background: transparent;
     padding-right: 10px;
 }
@@ -93,35 +93,35 @@ input, select {
     display: flex;
 }
 
- #street {
+ .street {
      width: 238px;
      margin-bottom: 24px;
      margin-right: 16px;
  }
 
- #house,  #flat, #index {
+ .house,  .flat, .index {
      width: 130px;
      margin-bottom: 24px;
      margin-right: 16px;
  }
 
- #comment {
+ .comment {
      width: 755px;
      margin-bottom: 64px;
  }
 
- #last_name, #first_name, #father_name {
+ .last_name, .first_name, .father_name {
      width: 220px;
      margin-bottom: 24px;
      margin-right: 16px;
  }
 
-#tel {
+.tel {
     width: 220px;
     margin-bottom: 8px;
 }
 
- #email {
+ .email {
      width: 456px;
      margin-bottom: 8px;
  }
